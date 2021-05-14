@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-.header-text {
+.header {
   text-align: center;
 }
 .articles-list {
@@ -9,9 +9,6 @@
   flex-wrap: wrap;
 }
 .article {
-  /* flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 300px; */
   flex: 1 0 300px;
   margin: 8px;
   padding: 16px;
