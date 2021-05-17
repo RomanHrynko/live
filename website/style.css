@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.navogation {
+  display: flex;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+}
