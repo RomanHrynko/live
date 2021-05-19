@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap');
+@import 'products.scss';
+@import 'navigation.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 65%;
+  margin: auto;
+  background-color: #f7f7f7;
+  font-family: 'Karla', sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    width: 95%;
+  }
+}
