@@ -68,3 +68,18 @@ console.log(obj3);
 const obj4 = { dog: 'Pes', hands: 8 };
 console.log(addPropertyV3(obj4, 'hands', 4));
 console.log(obj4);
+
+function addPropertyV3(obj, key, value) {
+  const sourceObj = { [key]: value };
+
+  return Object.assign({}, obj, sourceObj);
+
+  // return Object.assign(sourceObj, obj);
+}
+
+function addPropertyV4(obj, key, value) {
+  return { ...obj, [key]: value };
+}
+const obj5 = { dog: 'Pes', hands: 8 };
+console.log(addPropertyV3(obj5, 'hands', 4));
+console.log(obj5);
