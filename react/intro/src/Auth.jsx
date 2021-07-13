@@ -20,9 +20,12 @@ class App extends React.Component {
   }
 
   onLogin = () => {
+    console.log('STEP 1');
     this.setState({
       isLogging: true,
     });
+
+    console.log('SET STATE CALLED');
 
     // inp: func, ms
     // out: undefined
@@ -32,6 +35,7 @@ class App extends React.Component {
         isLoggedIn: true,
       });
     }, 2000);
+    console.log('LAST STEP');
   };
 
   onLogout = () => {
