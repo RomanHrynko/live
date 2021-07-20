@@ -31,7 +31,7 @@ class UsersList extends React.Component {
 
     const startIndex = (currentPage - 1) * userPerPage;
     const endIndex = startIndex + userPerPage;
-    const usersToDisplay = users.slice(startIndex, endIndex + 1);
+    const usersToDisplay = users.slice(startIndex, endIndex);
 
     // input: userPerPage, usersToDisplay
     // outPut: users[]
